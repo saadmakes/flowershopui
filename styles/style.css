@@ -1,0 +1,131 @@
+/* common shared styles goes here */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header styles goes here */
+header {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.sub-heading {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-img {
+    width: 635px;
+}
+
+/* main section styles goes here */
+.txt-primary {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.rectangle-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px;
+    padding-bottom: 0%;
+}
+
+.rectangle-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 45px 50px 45px;
+}
+
+.rectangle-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 65px 75px;
+    padding-bottom: 0%;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+#dif-color {
+    color: #E55473;
+    /* font-size: 40px;
+    font-weight: 800; */
+}
+
+
+/* hot deals section styles only ⬇ */
+.hot-deals {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.37);
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+
+/* footer area styles only ⬇ */
+
+
+
+.footer {
+    background: #111010;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+    padding-top: 130px;
+}
+
+#white {
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 130px;
+}
