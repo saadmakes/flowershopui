@@ -1,75 +1,92 @@
-/* common shared styles goes here */
-.btn-primary {
-    border-radius: 8px;
-    background: #E55473;
-    border: 0;
-    padding: 20px 40px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-
-body {
+* {
     font-family: 'Lato', sans-serif;
 }
 
 main {
-    max-width: 1140px;
-    margin: 0 auto;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
-/* header styles goes here */
 header {
     display: flex;
-    background-color: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-content {
+    padding: 180px 240px;
 }
 
 .header-title {
     color: #272727;
     font-family: Lato;
     font-size: 80px;
+    font-style: normal;
     font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
 }
 
-.sub-heading {
+.description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
 }
 
 .header-img {
-    width: 635px;
+    padding-top: 50px;
+    padding-right: 240px;
 }
 
-/* main section styles goes here */
-.txt-primary {
+/* Our Featured Flowers styles */
+.featured {
+    margin-top: 175px;
+}
+
+#featured {
+    text-align: center;
+}
+
+.featured-title {
     color: #272727;
+    text-align: center;
     font-size: 40px;
     font-weight: 800;
+}
+
+.rectangles {
+    display: flex;
 }
 
 .rectangle-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 110px 75px;
-    padding-bottom: 0%;
+    padding: 110px 78px 0px 78px;
 }
 
 .rectangle-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 110px 45px 50px 45px;
+    padding: 110px 47px 50px 47px;
 }
 
 .rectangle-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 65px 75px;
-    padding-bottom: 0%;
+    padding: 67px 75px 0px 75px;
 }
 
-.title {
+.rectangles-description {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -77,116 +94,23 @@ header {
     text-decoration-line: underline;
 }
 
-#dif-color {
-    color: #E55473;
-    /* font-size: 40px;
-    font-weight: 800; */
-}
+/* optional info starts  */
 
-
-/* hot deals section styles only ⬇ */
-.hot-deals {
+.optional-info {
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.37);
-}
-
-.hot-deal-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-/* ig section styles */
-
-
-
-/* latest deal section styles */
-
-.latest-section {
-    border-radius: 8px;
-    background: url('../assets/Rectangle\ 9.png'), no-repeat;
-    width: 1440px;
-    height: 449px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: space-between; */
     margin-top: 128px;
-    margin-bottom: 128px;
 }
 
-input {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.latest-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    padding-top: 120px;
-    margin-bottom: 16px;
-}
-
-#latest-coupon {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 48px;
-}
-
-.newsletter {
-    text-align: center;
-}
-
-#email-box {
-    border-radius: 8px;
-    background: #FFF;
-    width: 700px;
-    height: 64px;
-    border: 0;
-}
-
-#sub-btn {
-    padding: 20px 30px;
+.optional-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
 }
 
 
-
-
-
-/* footer area styles only ⬇ */
-
-
-
-footer {
-    background: #111010;
-}
-
-.footer-title {
-    color: #E55473;
-    font-size: 48px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 24px;
-    padding-top: 130px;
-}
-
-#white {
-    color: #FFF;
-}
-
-.footer-description {
-    color: rgba(255, 255, 255, 0.90);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.copyright {
-    color: rgba(255, 255, 255, 0.40);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 130px;
-}
+/* hot deals section styles */
