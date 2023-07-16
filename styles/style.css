@@ -14,6 +14,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* header styles goes here */
 header {
     display: flex;
@@ -91,6 +96,62 @@ header {
     font-weight: 800;
 }
 
+/* ig section styles */
+
+
+
+/* latest deal section styles */
+
+.latest-section {
+    border-radius: 8px;
+    background: url('../assets/Rectangle\ 9.png'), no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+input {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    margin-bottom: 16px;
+}
+
+#latest-coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+#email-box {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: 0;
+}
+
+#sub-btn {
+    padding: 20px 30px;
+}
+
+
 
 
 
@@ -98,7 +159,7 @@ header {
 
 
 
-.footer {
+footer {
     background: #111010;
 }
 
