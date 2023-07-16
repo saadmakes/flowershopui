@@ -2,6 +2,8 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* header styles */
+
 header {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -156,7 +158,7 @@ header {
     font-weight: 800;
 }
 
-/* instagram section starts */
+/* instagram section styles */
 
 .ig-title {
     color: #272727;
@@ -177,5 +179,97 @@ header {
     justify-content: center;
     justify-content: space-between;
     margin: 128px 240px 0px 240px;
+}
 
+.ig-img {
+    gap: 24px;
+    justify-content: space-between;
+}
+
+/* latest section styles */
+
+.latest-section {
+    background-image: url("../assets/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin: 128px 240px 128px 240px;
+}
+
+.latest-content {
+    padding: 122px 275px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#latest-coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+#email-box {
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    width: 700px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+#sub-btn {
+    border-radius: 8px;
+    background: #E55473;
+    margin-left: 16px;
+    padding: 19px 31px;
+}
+
+/* footer styles start */
+
+footer {
+    background: #111010;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+}
+
+#white {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
 }
